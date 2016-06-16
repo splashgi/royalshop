@@ -84,7 +84,7 @@
     </div>
   </div>
 </header>
-<?php if ($categories) { ?>
+<!--<?php if ($categories) { ?>
 <div class="container">
   <nav id="menu" class="navbar">
     <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
@@ -111,6 +111,24 @@
         <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
         <?php } ?>
         <?php } ?>
+      </ul>
+    </div>
+  </nav>
+</div>
+<?php } ?>-->
+
+<?php if ($categories) { ?>
+<div class="container">
+  <nav id="menu" class="navbar">
+    <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
+      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href='index.php'>HOME</a></li>
+        <li><a href='index.php?route=information/information&information_id=4'>ABOUT US</a></li>
+        <li><a href=''>FORUM</a></li>
+        <li><a href='index.php?route=information/contact'>SUPPORT</a></li>
       </ul>
     </div>
   </nav>

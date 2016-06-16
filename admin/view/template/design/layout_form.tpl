@@ -124,18 +124,6 @@
                     <?php } else { ?>
                     <option value="column_right"><?php echo $text_column_right; ?></option>
                     <?php } ?>
-					
-					 <?php if ($layout_module['position'] == 'header_right') { ?>
-                    <option value="header_right" selected="selected">Header Right</option>
-                    <?php } else { ?>
-                    <option value="header_right">Header Right</option>
-                    <?php } ?>
-					
-					<?php if ($layout_module['position'] == 'header_left') { ?>
-                    <option value="header_left" selected="selected">Header Left</option>
-                    <?php } else { ?>
-                    <option value="header_left">Header Left</option>
-                    <?php } ?>
                   </select></td>
                 <td class="text-right"><input type="text" name="layout_module[<?php echo $module_row; ?>][sort_order]" value="<?php echo $layout_module['sort_order']; ?>" placeholder="<?php echo $entry_sort_order; ?>" class="form-control" /></td>
                 <td class="text-left"><button type="button" onclick="$('#module-row<?php echo $module_row; ?>').remove();" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>
@@ -196,8 +184,6 @@ function addModule() {
     html += '    <option value="content_bottom"><?php echo $text_content_bottom; ?></option>';
     html += '    <option value="column_left"><?php echo $text_column_left; ?></option>';
     html += '    <option value="column_right"><?php echo $text_column_right; ?></option>';
-	html += '    <option value="header_right">Header Right</option>';
-	html += '    <option value="header_left">Header Left</option>';
     html += '  </select></td>';
 	html += '  <td class="text-left"><input type="text" name="layout_module[' + module_row + '][sort_order]" value="" placeholder="<?php echo $entry_sort_order; ?>" class="form-control" /></td>';
 	html += '  <td class="text-left"><button type="button" onclick="$(\'#module-row' + module_row + '\').remove();" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';

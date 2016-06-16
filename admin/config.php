@@ -1,31 +1,31 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://eduprosolutions.com/royalshop/admin/');
-define('HTTP_CATALOG', 'http://eduprosolutions.com/royalshop/');
+define('HTTP_SERVER', 'http://localhost:8888/testOpenCart/admin/');
+define('HTTP_CATALOG', 'http://localhost:8888/testOpenCart/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://eduprosolutions.com/royalshop/admin/');
-define('HTTPS_CATALOG', 'http://eduprosolutions.com/royalshop/');
+define('HTTPS_SERVER', 'http://localhost:8888/testOpenCart/admin/');
+define('HTTPS_CATALOG', 'http://localhost:8888/testOpenCart/');
 
 // DIR
-define('DIR_APPLICATION', '/var/www/royalshop/admin/');
-define('DIR_SYSTEM', '/var/www/royalshop/system/');
-define('DIR_IMAGE', '/var/www/royalshop/image/');
-define('DIR_LANGUAGE', '/var/www/royalshop/admin/language/');
-define('DIR_TEMPLATE', '/var/www/royalshop/admin/view/template/');
-define('DIR_CONFIG', '/var/www/royalshop/system/config/');
-define('DIR_CACHE', '/var/www/royalshop/system/storage/cache/');
-define('DIR_DOWNLOAD', '/var/www/royalshop/system/storage/download/');
-define('DIR_LOGS', '/var/www/royalshop/system/storage/logs/');
-define('DIR_MODIFICATION', '/var/www/royalshop/system/storage/modification/');
-define('DIR_UPLOAD', '/var/www/royalshop/system/storage/upload/');
-define('DIR_CATALOG', '/var/www/royalshop/catalog/');
+define('DIR_APPLICATION', '/Applications/MAMP/htdocs/testOpenCart/admin/');
+define('DIR_SYSTEM', '/Applications/MAMP/htdocs/testOpenCart/system/');
+define('DIR_IMAGE', '/Applications/MAMP/htdocs/testOpenCart/image/');
+define('DIR_LANGUAGE', '/Applications/MAMP/htdocs/testOpenCart/admin/language/');
+define('DIR_TEMPLATE', '/Applications/MAMP/htdocs/testOpenCart/admin/view/template/');
+define('DIR_CONFIG', '/Applications/MAMP/htdocs/testOpenCart/system/config/');
+define('DIR_CACHE', '/Applications/MAMP/htdocs/testOpenCart/system/storage/cache/');
+define('DIR_DOWNLOAD', '/Applications/MAMP/htdocs/testOpenCart/system/storage/download/');
+define('DIR_LOGS', '/Applications/MAMP/htdocs/testOpenCart/system/storage/logs/');
+define('DIR_MODIFICATION', '/Applications/MAMP/htdocs/testOpenCart/system/storage/modification/');
+define('DIR_UPLOAD', '/Applications/MAMP/htdocs/testOpenCart/system/storage/upload/');
+define('DIR_CATALOG', '/Applications/MAMP/htdocs/testOpenCart/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'kokosep26');
-define('DB_DATABASE', 'royalshop');
+define('DB_PASSWORD', 'root');
+define('DB_DATABASE', 'test_OpenCart');
 define('DB_PORT', '3306');
-define('DB_PREFIX', 'r_');
+define('DB_PREFIX', 'oc_');
